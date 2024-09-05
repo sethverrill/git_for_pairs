@@ -1,7 +1,7 @@
-class GitPair
-  attr_reader :name
+class GitHubColab
+  attr_reader :type
 
-  def initialize(name)
-    @name = name
+  def initialize(type)
+    @type = type
   end
 end
